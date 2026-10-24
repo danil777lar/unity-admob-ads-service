@@ -1,0 +1,33 @@
+{
+    "name": "Larje.Ads.AdMob.Zenject",
+    "rootNamespace": "Larje.Ads.AdMob.Zenject",
+    "references": [
+        "Larje.Core",
+        "Larje.Core.Zenject",
+        "Larje.Ads.AdMob",
+        "Zenject"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "LARJE_ZENJECT",
+        "LARJE_ADMOB"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.larje.zenject",
+            "expression": "9.0.0",
+            "define": "LARJE_ZENJECT"
+        },
+        {
+            "name": "com.google.ads.mobile",
+            "expression": "9.0.0",
+            "define": "LARJE_ADMOB"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Larje.Ads.AdMob",
+    "rootNamespace": "Larje.Ads.AdMob",
+    "references": [
+        "Larje.Core",
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "LARJE_ADMOB"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.google.ads.mobile",
+            "expression": "9.0.0",
+            "define": "LARJE_ADMOB"
+        }
+    ],
+    "noEngineReferences": false
+}
